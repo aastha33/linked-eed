@@ -2,9 +2,7 @@ from __future__ import print_function  # In python 2.
 import sys
 import sqlite3
 from flask import Flask, request, g, redirect, url_for, render_template
-import indeed as ind
 import JaccardSimilarity as mal
-import linkedin as lik
 
 app = Flask(__name__.split('.')[0])   # create the application instance
 
